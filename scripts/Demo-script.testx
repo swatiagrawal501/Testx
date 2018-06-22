@@ -1,0 +1,30 @@
+- go to:
+    url: 'https://www.amazon.in'
+
+- wait to appear:
+    eil: signText
+
+- set:
+    signText:
+
+- wait to appear :
+    eil: createAccBtn
+
+- set:
+    createAccBtn:
+
+- sleep:
+    seconds: '2'
+
+- wait to appear:
+    eil: yourName
+
+- set:
+    yourName: "Rohit"
+    MobNumber: '9873368776'
+    emailText: "rohit@gmail.com"
+    pwdText: "rohit12345@"
+    cntBtn:
+
+
+

@@ -1,0 +1,43 @@
+- go to:
+    url: 'https://www.amazon.in'
+
+- wait to appear:
+    eil: signText
+
+- set:
+    signText:
+
+- wait to appear :
+    eil: emailText
+
+- set:
+    emailText: '9304546249'
+
+- wait to appear:
+    eil: cntBtn
+
+- sleep:
+    seconds: '2'
+
+- set:
+    cntBtn:
+
+- wait to appear:
+    eil: pwdText
+
+- set:
+    pwdText: 'veena9304546249'
+
+- check exists:
+    pwdText: "true"
+
+- set:
+    loginBtn:
+
+- wait to appear:
+    eil: categoryBtn
+
+- check matches:
+    custName: "Veena"
+
+

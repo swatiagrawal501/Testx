@@ -1,0 +1,14 @@
+- wait to appear:
+    eil: myCart
+
+- set:
+    myCart:
+
+- wait to appear :
+    eil: checkout
+
+- set:
+    checkout:
+
+    - sleep:
+seconds: '2'
